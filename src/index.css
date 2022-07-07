@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body {
+    color: white;
+    background-color: black;
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/024/538/828/original/pixel-jeff-clipc-s.gif?1582740521&dl=1");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+}
+
+@font-face {
+    font-family: 'game-font';
+    src: url('./fontes/GameCommands.ttf');
+}

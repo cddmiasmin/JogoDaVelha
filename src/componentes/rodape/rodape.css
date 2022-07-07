@@ -5,12 +5,15 @@
     background-color: black;
     width: 100%;
     height: 25px;
+    font-family: 'Sue Ellen Francisco', cursive;
     position: absolute;
     bottom: 0;
+    color: #081d73;
+    font-size: 10px;
 }
 
 .id_container a {
     text-decoration: none;
-    color: white;
+    color: #081d73;
     margin-left: 4px;
 }

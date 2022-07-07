@@ -22,13 +22,13 @@ body {
     justify-content: center;
     align-items: center;
     position:absolute;
-    top:0px;
-    right:0px;
-    bottom:0px;
-    left:0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
 }
 
 @font-face {
-    font-family: 'game-font';
+    font-family: 'cabecalho-font';
     src: url('./fontes/GameCommands.ttf');
 }

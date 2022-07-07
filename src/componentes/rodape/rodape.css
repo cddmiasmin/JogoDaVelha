@@ -8,12 +8,12 @@
     font-family: 'Sue Ellen Francisco', cursive;
     position: absolute;
     bottom: 0;
-    color: #081d73;
+    color: #d0d0d0;
     font-size: 10px;
 }
 
 .id_container a {
     text-decoration: none;
-    color: #081d73;
+    color: #d0d0d0;
     margin-left: 4px;
 }

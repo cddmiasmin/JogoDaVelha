@@ -1,0 +1,116 @@
+.jogo_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 40%;
+    height: 65%;
+    margin-bottom: 15px;
+}
+
+.jogador_da_vez {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: black;
+    color: white;
+    opacity: 85%;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-bottom: 5px;
+}
+
+.jogador_da_vez.E {
+    color: white;
+    border: 2px solid white;
+}
+
+.jogador_da_vez.X {
+    color: var(--jogador-x);
+    border: 2px solid var(--jogador-x);
+}
+
+.jogador_da_vez.O {
+    color: var(--jogador-o);
+    border: 2px solid var(--jogador-o);
+}
+
+.jogo{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, 33%);
+    height: 100%;
+    width: 100%;
+    gap: 1.5px;
+}
+
+.jogo.fim {
+    opacity: 70%;
+    cursor: not-allowed;
+}
+
+.estilo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    opacity: 85%;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.estilo.X {
+    color: var(--jogador-x);
+    border: 2px solid var(--jogador-x);
+}
+
+.estilo.O {
+    color: var(--jogador-o);
+    border: 2px solid var(--jogador-o);
+}
+
+.estilo.X, .estilo.O, .jogo.fim .estilo{
+    cursor: not-allowed;
+}
+
+.estilo:not(.X):not(.O):hover{
+    box-shadow: 0 5px 10px -5px grey, 0 5px 0.3px;
+}
+
+.reiniciar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 100%;
+}
+
+.reiniciar button{
+    font-weight: bold;
+    height: 100%;
+    width: 60%;
+    font-size: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.reiniciar.X button{
+    color: var(--jogador-x);
+    border: 2px solid var(--jogador-x);
+}
+
+.reiniciar.O button{
+    color: var(--jogador-o);
+    border: 2px solid var(--jogador-o);
+}

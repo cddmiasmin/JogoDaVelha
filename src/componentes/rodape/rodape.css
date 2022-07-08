@@ -8,12 +8,13 @@
     font-family: 'Sue Ellen Francisco', cursive;
     position: absolute;
     bottom: 0;
-    color: #d0d0d0;
+    color: var(--jogador-x);
     font-size: 10px;
+    font-weight: bold;
 }
 
 .id_container a {
     text-decoration: none;
-    color: #d0d0d0;
+    color: var(--jogador-x);
     margin-left: 4px;
 }

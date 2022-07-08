@@ -5,11 +5,14 @@ import JogoDaVelha from "./componentes/Jogo/JogoDaVelha";
 
 function App() {
   return (
+    <>
     <div className="container">
       <Cabecalho/>
       <JogoDaVelha/>
       <Rodape/>
     </div>
+    <img src="https://cdna.artstation.com/p/assets/images/images/024/538/828/original/pixel-jeff-clipc-s.gif?1582740521&dl=1" alt="" />
+    </>
   );
 }
 

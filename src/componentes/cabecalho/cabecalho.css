@@ -4,6 +4,7 @@ h1 {
     align-items: center;
     font-family: cabecalho-font;
     font-size: x-large;
-    color: white;
+    color: var(--jogador-o);
+    text-shadow: 6px 2px black;
     margin-bottom: 25px;
 }

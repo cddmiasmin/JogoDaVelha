@@ -31,7 +31,17 @@ body {
     z-index: 1;
 }
 
+.fundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
 img {
+    position: relative;
     z-index: 0;
     opacity: 40%;
     width: 100%;

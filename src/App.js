@@ -11,7 +11,9 @@ function App() {
       <JogoDaVelha/>
       <Rodape/>
     </div>
-    <img src="https://cdna.artstation.com/p/assets/images/images/024/538/828/original/pixel-jeff-clipc-s.gif?1582740521&dl=1" alt="" />
+    <div className="fundo">
+      <img src="https://cdna.artstation.com/p/assets/images/images/024/538/828/original/pixel-jeff-clipc-s.gif?1582740521&dl=1" alt="" />
+    </div>
     </>
   );
 }

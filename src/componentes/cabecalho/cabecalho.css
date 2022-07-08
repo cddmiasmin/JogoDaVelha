@@ -8,3 +8,9 @@ h1 {
     text-shadow: 6px 2px black;
     margin-bottom: 25px;
 }
+
+@media screen and (max-width: 400px){
+    h1 {
+        font-size: medium;
+    }
+}

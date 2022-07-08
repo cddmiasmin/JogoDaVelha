@@ -114,3 +114,33 @@
     color: var(--jogador-o);
     border: 2px solid var(--jogador-o);
 }
+
+@media screen and (max-width: 1100px){
+    .jogo_container {
+        height: 55%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .jogo_container {
+        height: 45%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .jogo_container {
+        height: 35%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .jogo_container {
+        height: 30%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .jogo_container {
+        height: 25%;
+    }
+}

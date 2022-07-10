@@ -12,7 +12,7 @@
 
 <div align="left">
 
-:octocat: **Status:** Concluído!
+:octocat: **Status:** Finalizando!
 
 :octocat: **Disponível em:** [Jogo da Velha - Vercel.com ](https://vercel.com/cddmiasmin/jogo-da-velha/FvABy88wAxyM1brBuCi57ohCccBQ)
 

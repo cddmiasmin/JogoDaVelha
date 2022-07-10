@@ -4,8 +4,11 @@
 
 # Jogo da Velha
 
-    Lorem ipsum dolor sit amet. Non voluptatum autem et incidunt autem est nulla repudiandae eos doloremque neque. 
-    Eum minima modi sed quos illum non aliquam earum ad minima placeat aut voluptates consequatur.
+    Em um tabuleiro de matriz 3x3, dois jogadores devem marcar seu símbolo, na forma clássica sendo "X" e "O" como padrões, 
+    em um quadrado que esteja vazio.
+    Ganha aquele que conseguir formar uma linha de 3 quadrados de seu símbolo correspondente, 
+    podendo ser de forma horizontal ou vertical ou diagonal.
+    Se todos os quadrados forem preenchidos sem nenhum jogador conseguir formar sua linha o jogo é considerado empate.
 
 <br>
 
@@ -26,7 +29,7 @@
 
 ## :camera: Imagens do projeto:
 
-Em breve!
+![image](https://user-images.githubusercontent.com/94560372/178133526-ec48ded4-df73-4588-9a9a-cf7e62563e2a.png)
 
 ## :inbox_tray: Como executá-lo na sua máquina:
 

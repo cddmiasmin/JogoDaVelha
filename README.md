@@ -36,8 +36,10 @@
 
 </div>
 
+<br>   
+   
 ## :inbox_tray: Como executá-lo na sua máquina:
-
+   
 <div align="left">
 
   1. Abra um terminal de sua preferência (cmd, git bash, powershell etc);

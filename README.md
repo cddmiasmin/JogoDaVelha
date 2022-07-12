@@ -14,7 +14,7 @@
 
 :octocat: **Status:** Finalizando!
 
-:octocat: **Disponível em:** [Jogo da Velha - Vercel.com ](https://vercel.com/cddmiasmin/jogo-da-velha/FvABy88wAxyM1brBuCi57ohCccBQ)
+:octocat: **Disponível em:** [Jogo da Velha - Vercel.com ](https://jogo-da-velha-83f7acjq7-cddmiasmin.vercel.app)
 
 </div>
 
